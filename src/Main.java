@@ -1,78 +1,85 @@
 public class Main {
     public static void main(String[] args) {
         //Exercise 06
+
+
+
+
+
 // Classrooooooooooooooooooooooooooooooooooooooooooooooooooooooooooom
-        System.out.println();
-        Student s1 = new Student();
-        s1.setName("Hussam");
-        s1.setAge(28);
-        s1.setGpa(3);
-        s1.setPhone_number("0501116147");
-        s1.setId("12345678");
-        s1.setEmail(s1.getName() + "@gmail.com");
-        Student s2 = new Student();
-        s2.setName("Faisal");
-        s2.setAge(23);
-        s2.setGpa(3.3);
-        s2.setPhone_number("0501116147");
-        s2.setId("12345678");
-        s2.setEmail(s2.getName() + "@gmail.com");
-        Student s3 = new Student();
-        s3.setName("Ziyad");
-        s3.setAge(33);
-        s3.setGpa(3.1);
-        s3.setPhone_number("0501116147");
-        s3.setId("12345678");
-        s3.setEmail(s3.getName() + "@gmail.com");
-        Student s4 = new Student();
-        s4.setName("Abdulrahman");
-        s4.setAge(21);
-        s4.setGpa(2.4);
-        s4.setPhone_number("0501116147");
-        s4.setId("12345678");
-        s4.setEmail(s4.getName() + "@gmail.com");
-        Student s5 = new Student();
-        s5.setName("Hussam");
-        s5.setAge(20);
-        s5.setGpa(3.34);
-        s5.setPhone_number("0501116147");
-        s5.setId("12345678");
-        s5.setEmail(s5.getName() + "@gmail.com");
+//        Student s = new Student("Hussam", "12345678", "hosagmail.com", "0505050505", 23, 3, "Jubail");
 
-        System.out.println("your name is: "+ s1.getName());
-        System.out.println("your age is: "+ s1.getAge());
-        System.out.println("your email is: "+ s1.getEmail());
-        System.out.println("your gpa is: "+ s1.getGpa());
-        System.out.println("your phone number is: "+ s1.getPhone_number());
-        System.out.println("your id is: "+ s1.getId());
-
-        System.out.println("your name is: "+ s2.getName());
-        System.out.println("your age is: "+ s2.getAge());
-        System.out.println("your email is: "+ s2.getEmail());
-        System.out.println("your gpa is: "+ s2.getGpa());
-        System.out.println("your phone number is: "+ s2.getPhone_number());
-        System.out.println("your id is: "+ s2.getId());
-
-        System.out.println("your name is: "+ s3.getName());
-        System.out.println("your age is: "+ s3.getAge());
-        System.out.println("your email is: "+ s3.getEmail());
-        System.out.println("your gpa is: "+ s3.getGpa());
-        System.out.println("your phone number is: "+ s3.getPhone_number());
-        System.out.println("your id is: "+ s3.getId());
-
-        System.out.println("your name is: "+ s4.getName());
-        System.out.println("your age is: "+ s4.getAge());
-        System.out.println("your email is: "+ s4.getEmail());
-        System.out.println("your gpa is: "+ s4.getGpa());
-        System.out.println("your phone number is: "+ s4.getPhone_number());
-        System.out.println("your id is: "+ s4.getId());
-
-        System.out.println("your name is: "+ s5.getName());
-        System.out.println("your age is: "+ s5.getAge());
-        System.out.println("your email is: "+ s5.getEmail());
-        System.out.println("your gpa is: "+ s5.getGpa());
-        System.out.println("your phone number is: "+ s5.getPhone_number());
-        System.out.println("your id is: "+ s5.getId());
+//        System.out.println();
+//        Student s1 = new Student();
+//        s1.setName("Hussam");
+//        s1.setAge(28);
+//        s1.setGpa(3);
+//        s1.setPhone_number("0501116147");
+//        s1.setId("12345678");
+//        s1.setEmail(s1.getName() + "@gmail.com");
+//        Student s2 = new Student();
+//        s2.setName("Faisal");
+//        s2.setAge(23);
+//        s2.setGpa(3.3);
+//        s2.setPhone_number("0501116147");
+//        s2.setId("12345678");
+//        s2.setEmail(s2.getName() + "@gmail.com");
+//        Student s3 = new Student();
+//        s3.setName("Ziyad");
+//        s3.setAge(33);
+//        s3.setGpa(3.1);
+//        s3.setPhone_number("0501116147");
+//        s3.setId("12345678");
+//        s3.setEmail(s3.getName() + "@gmail.com");
+//        Student s4 = new Student();
+//        s4.setName("Abdulrahman");
+//        s4.setAge(21);
+//        s4.setGpa(2.4);
+//        s4.setPhone_number("0501116147");
+//        s4.setId("12345678");
+//        s4.setEmail(s4.getName() + "@gmail.com");
+//        Student s5 = new Student();
+//        s5.setName("Hussam");
+//        s5.setAge(20);
+//        s5.setGpa(3.34);
+//        s5.setPhone_number("0501116147");
+//        s5.setId("12345678");
+//        s5.setEmail(s5.getName() + "@gmail.com");
+//
+//        System.out.println("your name is: "+ s1.getName());
+//        System.out.println("your age is: "+ s1.getAge());
+//        System.out.println("your email is: "+ s1.getEmail());
+//        System.out.println("your gpa is: "+ s1.getGpa());
+//        System.out.println("your phone number is: "+ s1.getPhone_number());
+//        System.out.println("your id is: "+ s1.getId());
+//
+//        System.out.println("your name is: "+ s2.getName());
+//        System.out.println("your age is: "+ s2.getAge());
+//        System.out.println("your email is: "+ s2.getEmail());
+//        System.out.println("your gpa is: "+ s2.getGpa());
+//        System.out.println("your phone number is: "+ s2.getPhone_number());
+//        System.out.println("your id is: "+ s2.getId());
+//
+//        System.out.println("your name is: "+ s3.getName());
+//        System.out.println("your age is: "+ s3.getAge());
+//        System.out.println("your email is: "+ s3.getEmail());
+//        System.out.println("your gpa is: "+ s3.getGpa());
+//        System.out.println("your phone number is: "+ s3.getPhone_number());
+//        System.out.println("your id is: "+ s3.getId());
+//
+//        System.out.println("your name is: "+ s4.getName());
+//        System.out.println("your age is: "+ s4.getAge());
+//        System.out.println("your email is: "+ s4.getEmail());
+//        System.out.println("your gpa is: "+ s4.getGpa());
+//        System.out.println("your phone number is: "+ s4.getPhone_number());
+//        System.out.println("your id is: "+ s4.getId());
+//
+//        System.out.println("your name is: "+ s5.getName());
+//        System.out.println("your age is: "+ s5.getAge());
+//        System.out.println("your email is: "+ s5.getEmail());
+//        System.out.println("your gpa is: "+ s5.getGpa());
+//        System.out.println("your phone number is: "+ s5.getPhone_number());
+//        System.out.println("your id is: "+ s5.getId());
 
 
 
