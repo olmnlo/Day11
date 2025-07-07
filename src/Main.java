@@ -1,7 +1,20 @@
 public class Main {
     public static void main(String[] args) {
-        //Exercise 06
 
+//        Instructor instructor1 = new Instructor("Hussam", "hussam@gmail.com", 23, "0501116137", 4000);
+//        System.out.println(instructor1.toString());
+//        Instructor instructor2 = new Instructor("Faisal", "faisal@gmail.com", 23, "0515352553", 4000);
+//        System.out.println(instructor2.toString());
+//        Instructor instructor3 = new Instructor("Ahmed", "ahmed@gmail.com", 23, "0538327748", 4000);
+//        System.out.println(instructor3.toString());
+//        System.out.println();
+
+        FullTime full = new FullTime("Hussam", "hussam@gmail.com", 23, "0501116137", 4000, 40);
+        System.out.println(full.toString());
+        System.out.println(full.getSalary());
+        PartTime part = new PartTime("Ahmed", "ahmed@gmail.com", 24, "0533333333", 4000, 20);
+        System.out.println(part.toString());
+        System.out.println(part.getSalary());
 
 
 
